@@ -1,0 +1,58 @@
+.footer {
+    align-items: flex-end;
+    position: relative;
+    vertical-align: text-bottom;
+}
+
+.c {
+    text-align: end;
+    display: block;
+}
+#main {
+    color: black;
+}
+.foot {
+    display: inline-flex;
+}
+.title {
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
+    margin-bottom: 10%;
+}
+.form-check {
+    float:left;
+}
+a {
+    display: inline;
+    float: right;
+}
+.sign {
+    display: inline-flex;
+}
+.buttons {
+    margin-top: 80px;
+    position: relative;
+}
+
+.button-log {
+    align-items: center;
+    justify-content: center;
+    position: absoulute;
+    height: 20px;
+    width: 800px;
+    margin-bottom: 20px;
+}
+.button-sign {
+    height: 20px;
+    width: 20em;
+}
+/* .button-sign {
+    position: absolute;
+    display: inline;
+    height: 50%;
+    width: 30%;
+    float: left;
+} */
