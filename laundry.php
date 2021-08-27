@@ -34,7 +34,7 @@
 										<td class="">
 											<?php echo date("M d, Y",strtotime($row['date_created'])) ?></td>
 										<td class="text-right"><?php echo $row['queue'] ?></td>
-										<td class=""><?phpmecho $ucwords;
+										<td class=""><?php //echo $ucwords;
 												echo ucwords($row['customer_name']) ?></td>
 										<?php if($row['status'] == 0): ?>
 											<td class="text-center"><span class="badge badge-secondary">Pending</span></td>

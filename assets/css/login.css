@@ -1,3 +1,43 @@
+body{
+    width: 100%;
+    height: calc(100%);
+    /*background: #007bff;*/
+}
+main#main{
+    width:100%;
+    height: calc(100%);
+    background:white;
+}
+#login-right{
+    position: absolute;
+    right:0;
+    width:45%;
+    height: calc(100%);
+    background:white;
+    display: flex;
+    align-items: center;
+}
+#login-left{
+    position: absolute;
+    left:0;
+    width:55%;
+    height: calc(100%);
+    background:#59b6ec61;
+    display: flex;
+    align-items: center;
+}
+#login-right .card{
+    margin: auto
+}
+.logo {
+margin: auto;
+font-size: 8rem;
+background: white;
+padding: .5em 0.7em;
+border-radius: 50% 50%;
+color: #000000b3;
+}
+
 .footer {
     align-items: flex-end;
     position: relative;
@@ -34,7 +74,10 @@ a {
 }
 .buttons {
     margin-top: 80px;
-    position: relative;
+    width: 800em;
+    /* position: relative; */
+    display: block;
+    margin-left: 10px;
 }
 
 .button-log {
@@ -42,12 +85,24 @@ a {
     justify-content: center;
     position: absoulute;
     height: 20px;
-    width: 800px;
+    width: 60em;
     margin-bottom: 20px;
+    /* float: left; */
 }
 .button-sign {
     height: 20px;
-    width: 20em;
+    width: 60em;
+    /* float: right; */
+}
+.center {
+    margin-top: 30px;
+}
+p {
+    margin-left: 88px;
+    margin-right: 88px;
+    padding-right: 20px;
+    padding-left: 34px;
+    font-size: 11px;
 }
 /* .button-sign {
     position: absolute;
